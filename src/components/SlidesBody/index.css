@@ -1,0 +1,87 @@
+.body-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Bree Serif';
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  background-color: #dbeafe;
+  width: 120px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  padding: 10px;
+}
+.plus-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+.slides-body-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.slides-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  padding: 20px;
+}
+.active-slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  height: 600px;
+  margin: 100px;
+  width: 70%;
+  box-shadow: #f1f1f1 3px 3px 10px 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Button {
+  text-align: center;
+  cursor: text;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #dbeafe;
+}
+.Heading {
+  color: #0967d2;
+  font-family: 'Bree Serif';
+  font-size: 50px;
+  align-self: center;
+}
+.Description {
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  align-self: center;
+}
+.btn {
+  background-color: transparent;
+  margin: 20px;
+  border: none;
+  cursor: text;
+}
